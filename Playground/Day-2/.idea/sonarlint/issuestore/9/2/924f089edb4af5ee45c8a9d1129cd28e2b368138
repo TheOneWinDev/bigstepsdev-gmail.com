@@ -1,0 +1,16 @@
+
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Çµí‘8È½ÉóÍ1
+G	java:S106	"+Replace this use of System.out by a logger.(å‡‚ô8Ì½ÉóÍ1
+L	java:S106"+Replace this use of System.out by a logger.(ÈÉºäşÿÿÿÿ8Ì½ÉóÍ1
+L	java:S106"+Replace this use of System.out by a logger.(Ğà»Êşÿÿÿÿ8Ì½ÉóÍ1
+L	java:S106"+Replace this use of System.out by a logger.(·£åûÿÿÿÿ8Ì½ÉóÍ1
+G	java:S106"+Replace this use of System.out by a logger.(Ã½Ôù8Í½ÉóÍ1
+L	java:S106"+Replace this use of System.out by a logger.(‚¥äùÿÿÿÿ8Í½ÉóÍ1
+G	java:S106"+Replace this use of System.out by a logger.(Õ¬™Â8Í½ÉóÍ1
+L	java:S106 "+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8Í½ÉóÍ1
+L	java:S106#"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8Í½ÉóÍ1
+L	java:S106("+Replace this use of System.out by a logger.(ì­øúÿÿÿÿ8Í½ÉóÍ1
+G	java:S1067"+Replace this use of System.out by a logger.(Éê—8Ï½ÉóÍ1
+Y
+java:S1128"=Remove this unused import 'java.util.InputMismatchException'.(İ§18ÛÎÓóÍ1
