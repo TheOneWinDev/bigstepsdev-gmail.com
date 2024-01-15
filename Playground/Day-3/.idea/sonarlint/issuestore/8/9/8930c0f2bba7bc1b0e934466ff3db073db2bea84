@@ -1,0 +1,21 @@
+
+e
+java:S6208"CMerge the previous cases into this one using comma-separated label.(Öş…½øÿÿÿÿ8Ã˜›ÈÏ1
+e
+java:S6208"CMerge the previous cases into this one using comma-separated label.(›İüçüÿÿÿÿ8Ã˜›ÈÏ1
+e
+java:S6208"CMerge the previous cases into this one using comma-separated label.(§öàÓşÿÿÿÿ8Ã˜›ÈÏ1
+e
+java:S6208#"CMerge the previous cases into this one using comma-separated label.(ƒÆã‰üÿÿÿÿ8Ä˜›ÈÏ1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(åË¥²8Ä˜›ÈÏ1
+n
+java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(æáÓĞûÿÿÿÿ8Å˜›ÈÏ1
+W
+java:S1118":Add a private constructor to hide the implicit public one.(åË¥²8É˜›ÈÏ1
+L	java:S106	"+Replace this use of System.out by a logger.(ÌÜÊÑıÿÿÿÿ8Ì˜›ÈÏ1
+L	java:S106"+Replace this use of System.out by a logger.(»¿‡Ñıÿÿÿÿ8Ì˜›ÈÏ1
+G	java:S106"+Replace this use of System.out by a logger.( çì8Í˜›ÈÏ1
+L	java:S106"+Replace this use of System.out by a logger.(ù˜Äøÿÿÿÿ8Í˜›ÈÏ1
+F	java:S106"+Replace this use of System.out by a logger.(Ôµ58Î˜›ÈÏ1
+L	java:S106$"+Replace this use of System.out by a logger.(¯Ù¯Ñøÿÿÿÿ8Î˜›ÈÏ1
+L	java:S106'"+Replace this use of System.out by a logger.(‘Ğıïùÿÿÿÿ8Ï˜›ÈÏ1
