@@ -1,0 +1,10 @@
+
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Èù™8ş¿ÍòĞ1
+:
+java:S2119"Save and re-use this "Random".(¼İÅf8€ÀÍòĞ1
+G	java:S106"+Replace this use of System.out by a logger.(óğø˜8ÀÍòĞ1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ÀÍòĞ1
+G	java:S106="+Replace this use of System.out by a logger.(¥œÅ§8‚ÀÍòĞ1
+G	java:S106>"+Replace this use of System.out by a logger.(üåÚ†8ûÉÏòĞ1
+L	java:S106?"+Replace this use of System.out by a logger.(©ı‘ÿÿÿÿÿ8‚ĞòĞ1
