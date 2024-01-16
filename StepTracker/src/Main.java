@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+            StepTracker.printMenu();
             Scanner scanner = new Scanner(System.in);
             StepTracker steps = new StepTracker();
             steps.setStepsGoal(8000);

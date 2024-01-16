@@ -1,22 +1,28 @@
 
 …
-java:S1319"hThe type of "StepsInYear" should be an interface such as "Map" rather than the implementation "HashMap".(Ë†İã8€¢÷¯Í1
+java:S1319"hThe type of "StepsInYear" should be an interface such as "Map" rather than the implementation "HashMap".(Ë†İã8¼†•õĞ1
 t
-java:S1104"WMake StepsInYear a static final constant or non-public and provide accessors if needed.(Ë†İã8¢÷¯Í1
+java:S1104"WMake StepsInYear a static final constant or non-public and provide accessors if needed.(Ë†İã8½†•õĞ1
 r
-java:S1104"UMake StepsGoal a static final constant or non-public and provide accessors if needed.(Ö’õ•8¢÷¯Í1
+java:S1104"UMake StepsGoal a static final constant or non-public and provide accessors if needed.(Ö’õ•8½†•õĞ1
 N
-java:S1444"1Make this "public static StepsInYear" field final(Ë†İã8¢÷¯Í1
+java:S1444"1Make this "public static StepsInYear" field final(Ë†İã8½†•õĞ1
 L
-java:S1444"/Make this "public static StepsGoal" field final(Ö’õ•8¢÷¯Í1
+java:S1444"/Make this "public static StepsGoal" field final(Ö’õ•8½†•õĞ1
 s
-java:S3008"VRename this field "StepsInYear" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë†İã8ˆ¢÷¯Í1
+java:S3008"VRename this field "StepsInYear" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë†İã8Å†•õĞ1
 q
-java:S3008"TRename this field "StepsGoal" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö’õ•8ˆ¢÷¯Í1
+java:S3008"TRename this field "StepsGoal" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö’õ•8Å†•õĞ1
 :
-java:S2386"Make this member "protected".(Ë†İã8Š¢÷¯Í1
+java:S2386"Make this member "protected".(Ë†İã8Æ†•õĞ1
+L	java:S106
+"+Replace this use of System.out by a logger.(§Èö›ùÿÿÿÿ8Ì†•õĞ1
+G	java:S106"+Replace this use of System.out by a logger.(íÏÃ‰8Ì†•õĞ1
+G	java:S106"+Replace this use of System.out by a logger.(×ÅÄ8Æ›õĞ1
+G	java:S106"+Replace this use of System.out by a logger.(îóá½8å©œõĞ1
 S
-java:S2696"6Make the enclosing method "static" or remove this set.(ŸäŸ8¢÷¯Í1
-L	java:S106!"+Replace this use of System.out by a logger.(€«åúşÿÿÿÿ8¢÷¯Í1
-L	java:S106)"+Replace this use of System.out by a logger.(Ãÿ¨ÿÿÿÿÿ8‘¢÷¯Í1
-X	java:S1258"<This block of commented-out lines of code should be removed.(€ïºÜ8êËø¯Í1
+java:S2696"6Make the enclosing method "static" or remove this set.(ŸäŸ8Ë†•õĞ1
+L	java:S106'"+Replace this use of System.out by a logger.(€«åúşÿÿÿÿ8è©œõĞ1
+L	java:S106/"+Replace this use of System.out by a logger.(Ãÿ¨ÿÿÿÿÿ8é©œõĞ1
+o	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘‘×Àÿÿÿÿÿ8Í†•õĞ1
+o	java:S100J"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ Ş¹üÿÿÿÿ8Î†•õĞ1
