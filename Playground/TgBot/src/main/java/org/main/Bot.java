@@ -10,12 +10,15 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
+
 
 import static org.main.WeatherApi.client;
 
 public class Bot extends TelegramLongPollingBot {
 
-    private static final String API_KEY = "Yandex-WeatherApiKey";
+    private static final String API_KEY = "KEY";
     private static final String API_URL = "https://api.weather.yandex.ru/v2/informers?lat=51.670833&lon=39.180556";
 
     @Override
@@ -27,8 +30,7 @@ public class Bot extends TelegramLongPollingBot {
             message.setChatId(chatId);
 
             if (messageText.toLowerCase().contains("погода")) {
-                String weatherData = getWeatherData();
-                message.setText(weatherData);
+                message.setText(formattedWeatherData());
             } else {
                 message.setText("Передайте необходимые параметры команды");
             }
@@ -60,6 +62,24 @@ public class Bot extends TelegramLongPollingBot {
             e.printStackTrace();
             return "Произошла ошибка при получении данных.";
         }
+    }
+
+    private String formattedWeatherData() {
+        String json = getWeatherData();
+        Gson gson = new Gson();
+
+        JsonObject jsonObject = gson.fromJson(json, JsonObject.class);
+
+        JsonObject factObject = jsonObject.getAsJsonObject("fact");
+
+        int temperature = factObject.get("temp").getAsInt();
+        int pressure_mm = factObject.get("pressure_mm").getAsInt();
+
+        String toReturn = "";
+        toReturn = "Температура: " + temperature + "°C" + "\n";
+        toReturn += "Давление: " + pressure_mm + " мм рт. ст.";
+
+        return toReturn;
     }
 
     @Override
